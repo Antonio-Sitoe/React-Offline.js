@@ -21,7 +21,6 @@ function App() {
       },
     };
 
-    console.log("sssssss", Offline);
     const handleOnline = () => {
       setIsOnline(true);
     };
