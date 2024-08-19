@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import "offline-js";
 import "offline-js/themes/offline-theme-default.css";
-import "offline-js/themes/offline-language-english.css";
+import "offline-js/themes/offline-language-portuguese-brazil.css";
 
 function App() {
   const [isOnline, setIsOnline] = useState(false);
@@ -17,6 +17,7 @@ function App() {
       reconnect: {
         initialDelay: 3,
         delay: 10,
+
       },
     };
 
