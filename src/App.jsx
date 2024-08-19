@@ -10,6 +10,12 @@ function App() {
   const [isOnline, setIsOnline] = useState(true);
 
   useEffect(() => {
+    const documentButton = document.querySelector(".offline-ui-retry");
+    documentButton?.addEventListener("click", (e) => {
+      e.preventDefault();
+      alert("Alerta");
+    });
+
     // Configuração do Offline.js
     Offline.options = {
       checkOnLoad: true,
@@ -17,7 +23,6 @@ function App() {
       reconnect: {
         initialDelay: 3,
         delay: 10,
-
       },
     };
 

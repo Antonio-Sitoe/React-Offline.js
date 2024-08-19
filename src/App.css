@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.offline-ui-retry {
+  background: red;
+  color: white;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
