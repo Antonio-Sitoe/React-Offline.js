@@ -6,8 +6,8 @@
 }
 
 .offline-ui-retry {
-  background: red;
-  color: white;
+  background: red !important;
+  color: white !important;
 }
 
 .logo {
