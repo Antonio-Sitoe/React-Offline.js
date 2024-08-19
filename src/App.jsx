@@ -7,7 +7,7 @@ import "offline-js/themes/offline-theme-chrome.css";
 import "offline-js/themes/offline-language-portuguese-brazil.css";
 
 function App() {
-  const [isOnline, setIsOnline] = useState(false);
+  const [isOnline, setIsOnline] = useState(true);
 
   useEffect(() => {
     // Configuração do Offline.js
