@@ -3,7 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "offline-js";
-import "offline-js/themes/offline-theme-default.css";
+import "offline-js/themes/offline-theme-chrome.css";
 import "offline-js/themes/offline-language-portuguese-brazil.css";
 
 function App() {
